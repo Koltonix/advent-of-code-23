@@ -11,6 +11,7 @@ public:
 	DayOne();
 	~DayOne() {};
 
+	virtual std::string GetDayName() const override;
 	virtual std::vector<std::string> Exec() override;
 
 private:

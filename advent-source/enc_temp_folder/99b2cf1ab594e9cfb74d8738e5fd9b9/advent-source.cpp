@@ -12,7 +12,7 @@ int main()
         new DayOne()
     };
 
-    for (Day* day : days)
+    for (Day* const day : days)
     {
         if (day)
         {
@@ -25,10 +25,9 @@ int main()
             }
 
             delete day;
-            day = nullptr;
         }
     };
 
     days.clear();
-    return 1;
+        return 1;
 }

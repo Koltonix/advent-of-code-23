@@ -21,6 +21,11 @@ DayOne::DayOne()
     };
 }
 
+std::string DayOne::GetDayName() const
+{
+    return "Day One";
+}
+
 std::vector<std::string> DayOne::Exec()
 {
     std::vector<std::string> file = Utilities::ReadFileLine(mInputFilePath);
