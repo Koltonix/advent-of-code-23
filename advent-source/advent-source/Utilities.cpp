@@ -51,3 +51,13 @@ const std::string Utilities::GetInputFilesDownloadLocation()
 {
 	return "../inputs/";
 }
+
+char Utilities::GetCharAt(const std::string& InStr, const int InIndex)
+{
+	if (InIndex < InStr.size())
+	{
+		return InStr[InIndex];
+	}
+
+	return -1;
+}

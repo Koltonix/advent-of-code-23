@@ -37,6 +37,9 @@
     <ClCompile Include="Utilities.cpp">
       <Filter>Implementation\Util</Filter>
     </ClCompile>
+    <ClCompile Include="DayTwo.cpp">
+      <Filter>Implementation\Days</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day.h">
@@ -46,6 +49,9 @@
       <Filter>Implementation\Util</Filter>
     </ClInclude>
     <ClInclude Include="DayOne.h">
+      <Filter>Implementation\Days</Filter>
+    </ClInclude>
+    <ClInclude Include="DayTwo.h">
       <Filter>Implementation\Days</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,6 @@
 #include "Day.h"
 #include "DayOne.h"
+#include "DayTwo.h"
 
 #include <iostream>
 #include <vector>
@@ -9,7 +10,8 @@ int main()
     // Only doing a ptr because I want an abstract class lol.
     std::vector<Day*> days =
     {
-        new DayOne()
+        new DayOne(),
+        new DayTwo()
     };
 
     for (Day* day : days)

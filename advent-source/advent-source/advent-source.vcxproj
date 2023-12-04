@@ -131,11 +131,13 @@
     <ClCompile Include="advent-source.cpp" />
     <ClCompile Include="Day.cpp" />
     <ClCompile Include="DayOne.cpp" />
+    <ClCompile Include="DayTwo.cpp" />
     <ClCompile Include="Utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day.h" />
     <ClInclude Include="DayOne.h" />
+    <ClInclude Include="DayTwo.h" />
     <ClInclude Include="Utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

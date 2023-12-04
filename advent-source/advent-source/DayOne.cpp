@@ -75,7 +75,6 @@ int DayOne::GrabCombinedDigits(const std::string& InParse, const bool& bIncludeS
             std::string spelledOut = { static_cast<char>(std::toupper(character)) };
             for (int j = i + 1; j <= InParse.size(); j++)
             {
-                // This doesn't include text when it's been appended; e.g: EADFNINEEIGHT will not pick up ANHYTHING.
                 for (const std::pair<std::string, char>& it : mDigitsSpelled)
                 {
                     size_t val = it.first.find(spelledOut);

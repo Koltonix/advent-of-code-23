@@ -14,4 +14,6 @@ public:
 
 	// Nevermind, I forgot each user has a different puzzle.
 	static const std::string GetInputFilesDownloadLocation();
+
+	static char GetCharAt(const std::string& InStr, const int InIndex);
 };
